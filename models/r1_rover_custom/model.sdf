@@ -60,6 +60,30 @@
 					<specular>1.0 1.0 1.0</specular>
 				</material>
 			</visual>
+			<!-- <collision name='collision_top_link'>
+				<pose>0 0 0.114486 0 -0 0</pose>
+				<geometry>
+					<mesh>
+						<scale>3 2 1</scale>
+						<uri>model://r1_rover_custom/meshes/top_link.STL</uri>
+					</mesh>
+				</geometry>
+				<surface>
+					<contact>
+						<ode/>
+					</contact>
+					<friction>
+						<ode>
+							<mu>500.0</mu>
+							<mu2>500.0</mu2>
+							<fdir1>1 1 0</fdir1>
+							<slip1>0.0</slip1>
+							<slip2>0.0</slip2>
+						</ode>
+					</friction>
+				</surface>
+			</collision> -->
+
 			<!-- <visual name='custom__partition_mid_1'>
 				<pose>-0.05 0 0.1 0 0 0</pose>
 				<geometry>
@@ -240,6 +264,7 @@
 					</friction>
 				</surface>
 			</collision> -->
+
 			<visual name='custom_basket_1'>
 				<pose>0.4 0 0.325 3.141592 0 0</pose>
 				<geometry>
@@ -266,7 +291,13 @@
 						<ode/>
 					</contact>
 					<friction>
-						<ode/>
+						<ode>
+							<mu>500.0</mu>
+							<mu2>500.0</mu2>
+							<fdir1>1 1 0</fdir1>
+							<slip1>0.0</slip1>
+							<slip2>0.0</slip2>
+						</ode>
 					</friction>
 				</surface>
 			</collision>
@@ -296,7 +327,13 @@
 						<ode/>
 					</contact>
 					<friction>
-						<ode/>
+						<ode>
+							<mu>500.0</mu>
+							<mu2>500.0</mu2>
+							<fdir1>1 1 0</fdir1>
+							<slip1>0.0</slip1>
+							<slip2>0.0</slip2>
+						</ode>
 					</friction>
 				</surface>
 			</collision>
