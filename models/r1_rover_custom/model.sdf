@@ -266,10 +266,10 @@
 			</collision> -->
 
 			<visual name='custom_basket_1'>
-				<pose>0.4 0 0.325 3.141592 0 0</pose>
+				<pose>0.4 0 0.4 3.141592 0 0</pose>
 				<geometry>
 					<mesh>
-						<scale>1 1 0.85</scale>
+						<scale>1 1 1</scale>
 						<uri>model://r1_rover_custom/meshes/cylinder.stl</uri>
 					</mesh>
 				</geometry>
@@ -279,10 +279,10 @@
 				</material>
 			</visual>
 			<collision name='custom_basket_1_collision'>
-				<pose>0.4 0 0.325 3.141592 0 0</pose>
+				<pose>0.4 0 0.4 3.141592 0 0</pose>
 				<geometry>
 					<mesh>
-						<scale>1 1 0.85</scale>
+						<scale>1 1 1</scale>
 						<uri>model://r1_rover_custom/meshes/cylinder.stl</uri>
 					</mesh>
 				</geometry>
@@ -292,8 +292,8 @@
 					</contact>
 					<friction>
 						<ode>
-							<mu>500.0</mu>
-							<mu2>500.0</mu2>
+							<mu>5000.0</mu>
+							<mu2>5000.0</mu2>
 							<fdir1>1 1 0</fdir1>
 							<slip1>0.0</slip1>
 							<slip2>0.0</slip2>
@@ -302,10 +302,10 @@
 				</surface>
 			</collision>
 			<visual name='custom_basket_2'>
-				<pose>-0.4 0 0.325 3.141592 0 0</pose>
+				<pose>-0.4 0 0.4 3.141592 0 0</pose>
 				<geometry>
 					<mesh>
-						<scale>1 1 0.85</scale>
+						<scale>1 1 1</scale>
 						<uri>model://r1_rover_custom/meshes/cylinder.stl</uri>
 					</mesh>
 				</geometry>
@@ -315,10 +315,10 @@
 				</material>
 			</visual>
 			<collision name='custom_basket_2_collision'>
-				<pose>-0.4 0 0.325 3.141592 0 0</pose>
+				<pose>-0.4 0 0.4 3.141592 0 0</pose>
 				<geometry>
 					<mesh>
-						<scale>1 1 0.85</scale>
+						<scale>1 1 1</scale>
 						<uri>model://r1_rover_custom/meshes/cylinder.stl</uri>
 					</mesh>
 				</geometry>
@@ -328,8 +328,8 @@
 					</contact>
 					<friction>
 						<ode>
-							<mu>500.0</mu>
-							<mu2>500.0</mu2>
+							<mu>5000.0</mu>
+							<mu2>5000.0</mu2>
 							<fdir1>1 1 0</fdir1>
 							<slip1>0.0</slip1>
 							<slip2>0.0</slip2>
